@@ -29,7 +29,6 @@ static ImageCache *instance;
             
             if (![[NSFileManager defaultManager] fileExistsAtPath:dirPath]) {
                 [[NSFileManager defaultManager] createDirectoryAtPath:dirPath withIntermediateDirectories:YES attributes:nil error:NULL];
-                return NO;
             }
         }
     }
